@@ -1,6 +1,5 @@
 ---
 layout : post
-title  :  mongodb - update data di dalam element array 
 data   :  2018-10-20
 tags : ["mongodb"]
 categories : mongodb

@@ -1,6 +1,5 @@
 ---
 layout : post
-title  : mongodb - menggunakan $unset untuk delete field
 data   :  2018-10-20,
 tags : ["mongodb"]
 categories : mongodb

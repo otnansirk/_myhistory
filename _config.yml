@@ -33,12 +33,24 @@ disqus-identifier: reogcode # Add your shortname for Disqus Comment. For example
 
 # Build settings
 markdown: kramdown
-permalink: /:year/:month/:day/:title/
+permalink: /:title/
 plugins:
   - jekyll-paginate
 
 paginate: 7
 paginate_path: "/page/:num/"
+
+# compress
+compress_html:
+  clippings: all
+  comments: ["<!--", "-->"]
+  endings: all
+  ignore:
+    envs: []
+  blanklines: false
+  profile: false
+  startings: [html, body, head]
+
 
 include:
   - _pages

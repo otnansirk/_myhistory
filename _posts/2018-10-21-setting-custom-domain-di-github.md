@@ -1,6 +1,5 @@
 ---
 layout : post
-title  : Custom domain untuk github pages
 data   : 2018-10-21,
 tags : ["other"]
 categories : other
