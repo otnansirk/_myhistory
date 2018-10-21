@@ -33,7 +33,7 @@ satu persatu.
 {% endhighlight %}
 
 sehingga terlihat seperti ini
-![]({{site.baseurl}}/images/ahost.jpg){:.center-box-sadow}
+![]({{site.baseurl}}/images/Ahost.jpg){:.center-box-sadow}
 
 Cari bagian `CNAME (Alias)` lalu tambahkan `www` pada colom `Host` dan URL pages yang <br>
 formatnya `github-username.github.io` di colom `Diarahkan ke`. <br>
