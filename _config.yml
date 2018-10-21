@@ -1,0 +1,54 @@
+title: reogcode
+description: Kagak usah dibaca gak penting.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://krisnantobiyuh.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+favicon : "favicon.ico"
+# Author
+author-name:    Krisnanto
+author-image:   krisnanto.jpg
+author-job:     Software engineer
+author-linkedin: krisnanto010 # Add your linkedin for contant form.
+author-github  : krisnantobiyuh # Add your github account
+author-email   : krisnantobiyuh@gmail.com # Add your github account
+about-author   : ""
+
+# Social settings
+social-twitter  : krisnantobiyuh
+social-facebook : krisnant0
+social-github   : krisnantobiyuh
+social-pinterest: krisnant0
+social-instagram: krisnanto1
+social-youtube  : channel/UCMY6l17tTwVHh55ZrLvKUFw
+social-vk:
+social-linkedin : krisnanto010
+
+# Newsletter
+mailchimp: # Add your MailChimp form identifier. For example - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e
+
+# Google Analytics
+google-analytics: # Add your identifier. For example UA-99631805-1
+
+# Comment Section (Disqus)
+disqus-identifier: reogcode # Add your shortname for Disqus Comment. For example mr-brown
+
+# Build settings
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+plugins:
+  - jekyll-paginate
+
+paginate: 7
+paginate_path: "/page/:num/"
+
+include:
+  - _pages
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Exclude from processing.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
