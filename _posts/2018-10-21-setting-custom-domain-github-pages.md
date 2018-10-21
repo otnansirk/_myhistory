@@ -12,7 +12,7 @@ Dalam contoh ini, kita akan menggunakan domain yang aku dapatkan dari [hostinger
 
 Kita mulai dengan buka repository github pages, lalu pergi ke menu `setting` .
 <center>
-<img src="{{site.baseurl}}/images/github-repo.png" width="650" style="box-shadow: 0 0 5px #d9d9d9, 0 0 15px #999999">
+<img src="{{site.baseurl}}/images/github-repo.PNG" width="650" style="box-shadow: 0 0 5px #d9d9d9, 0 0 15px #999999">
 <br> Gambar 3
 </center>
 
