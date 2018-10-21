@@ -5,7 +5,7 @@ data   :  2018-10-20,
 tags : ["mongodb"]
 categories : mongodb
 ---
-
+ 
 Menghapus field dari document. Kenapa harus dihapus fieldnya? kenapa tidak memberi value
 `null`, `[]`, atau `""` saja.
 Sebenernya memberi value tersbut tidak jadi masalah, tapi terkadang kita perlu menghapus
