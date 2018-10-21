@@ -1,6 +1,5 @@
 ---
 layout : post
-title  : Custom domain untuk github pages
 data   : 2018-10-21,
 tags : ["other"]
 categories : other
@@ -13,14 +12,14 @@ Dalam contoh ini, kita akan menggunakan domain yang aku dapatkan dari [hostinger
 
 Kita mulai dengan buka repository github pages, lalu pergi ke menu `setting` .
 <center>
-<img src="{{site.baseurl}}/images/1/github-repo.png" width="650" style="box-shadow: 0 0 5px #d9d9d9, 0 0 15px #999999">
+<img src="{{site.baseurl}}/images/github-repo.png" width="650" style="box-shadow: 0 0 5px #d9d9d9, 0 0 15px #999999">
 <br> Gambar 3
 </center>
 
 Setelah muncul halaman setting, scroll kebawah bagian `GitHub Pages`.
 Dibagian colom `custom domain` masukkan domain sobat.
 <center>
-<img src="{{site.baseurl}}/images/1/custom-domain.png" width="650" style="box-shadow: 0 0 5px #d9d9d9, 0 0 15px #999999">
+<img src="{{site.baseurl}}/images/custom-domain.png" width="650" style="box-shadow: 0 0 5px #d9d9d9, 0 0 15px #999999">
 <br> Gambar 4
 </center>
 
@@ -41,7 +40,7 @@ satu persatu.
 
 sehingga terlihat seperti ini
 <center>
-<img src="{{site.baseurl}}/images/1/Ahost.png" width="650" style="box-shadow: 0 0 5px #d9d9d9, 0 0 15px #999999">
+<img src="{{site.baseurl}}/images/Ahost.png" width="650" style="box-shadow: 0 0 5px #d9d9d9, 0 0 15px #999999">
 <br> Gambar 1
 </center>
 
@@ -51,7 +50,7 @@ Seperti pada gambar no 1 `krisnantobiyuh.github.io`
 
 sehingga terlihat seperti ini
 <center>
-<img src="{{site.baseurl}}/images/1/cname.png" width="650" style="box-shadow: 0 0 5px #d9d9d9, 0 0 15px #999999">
+<img src="{{site.baseurl}}/images/cname.png" width="650" style="box-shadow: 0 0 5px #d9d9d9, 0 0 15px #999999">
 <br> Gambar 2
 </center>
 
