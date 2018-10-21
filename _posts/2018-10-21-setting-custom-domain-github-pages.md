@@ -19,7 +19,7 @@ Kita mulai dengan buka repository github pages, lalu pergi ke menu `setting` .
 Setelah muncul halaman setting, scroll kebawah bagian `GitHub Pages`.
 Dibagian colom `custom domain` masukkan domain sobat.
 <center>
-<img src="{{site.baseurl}}/images/custom-domain.png" width="650" style="box-shadow: 0 0 5px #d9d9d9, 0 0 15px #999999">
+<img src="{{site.baseurl}}/images/custom-domain.jpg" width="650" style="box-shadow: 0 0 5px #d9d9d9, 0 0 15px #999999">
 <br> Gambar 4
 </center>
 
