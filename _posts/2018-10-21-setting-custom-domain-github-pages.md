@@ -7,7 +7,7 @@ cat-image : cat-other.jpg
 ---
 
 Dalam contoh ini, kita akan menggunakan domain yang aku dapatkan dari [hostinger](https://www.hostinger.co.id/){:target="_blank"}.
-
+<!-- test fix -->
 **1. Setting GitHub Pages**
 
 Kita mulai dengan buka repository github pages, lalu pergi ke menu `setting` .
