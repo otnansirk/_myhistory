@@ -11,7 +11,7 @@ Dalam contoh ini, kita akan menggunakan domain yang aku dapatkan dari [hostinger
 **1. Setting GitHub Pages**
 
 Kita mulai dengan buka repository github pages, lalu pergi ke menu `setting` .
-![]({{site.baseurl}}/images/github-repo.png){:.center-box-sadow}
+![]({{site.baseurl}}/images/github-repo.jpg){:.center-box-sadow}
 
 Setelah muncul halaman setting, scroll kebawah bagian `GitHub Pages`.
 Dibagian colom `custom domain` masukkan domain sobat.
@@ -33,14 +33,14 @@ satu persatu.
 {% endhighlight %}
 
 sehingga terlihat seperti ini
-![]({{site.baseurl}}/images/Ahost.png){:.center-box-sadow}
+![]({{site.baseurl}}/images/Ahost.jpg){:.center-box-sadow}
 
 Cari bagian `CNAME (Alias)` lalu tambahkan `www` pada colom `Host` dan URL pages yang <br>
 formatnya `github-username.github.io` di colom `Diarahkan ke`. <br>
 Seperti pada gambar no 1 `krisnantobiyuh.github.io`
 
 sehingga terlihat seperti ini
-![]({{site.baseurl}}/images/cname.png){:.center-box-sadow}
+![]({{site.baseurl}}/images/cname.jpg){:.center-box-sadow}
 
 Pembaruan DNS ini memerlukan waktu biasanya 1x24 jam+-. tergantung pada providernya (Tempat membeli domain).
 
