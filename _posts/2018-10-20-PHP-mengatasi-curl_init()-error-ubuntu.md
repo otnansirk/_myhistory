@@ -1,6 +1,5 @@
 ---
 layout : post
-title  : Mengatasi curl_init error ubuntu
 data   : 2018-10-20
 tags : ["php"]
 categories : php
