@@ -6,7 +6,7 @@ categories : other
 cat-image : cat-other.jpg
 ---
 
-Dalam contoh ini, kita akan menggunakan domain yang aku dapatkan dari [hostinger](https://www.hostinger.co.id/){:target="_blank"}.
+Dalam contoh ini, kita akan menggunakan domain yang aku  dapatkan dari [hostinger](https://www.hostinger.co.id/){:target="_blank"}.
 
 **1. Setting GitHub Pages**
 
