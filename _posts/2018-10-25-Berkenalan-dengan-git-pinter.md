@@ -9,11 +9,11 @@ cat-image :
 ---
 
 Beberapa hari yang lalu saya coba buka-buka repository github dari serior saya
-[@akuikiali](https://github.com/akuikialie){:target="_blank"}
+[@akuikialie](https://github.com/akuikialie){:target="_blank"}
 dan saya menemukan kembali E-book yang menjadi dasar saya belajar git dengan judul
 `git-pinter`. Dari situ lah tulisan ini tercipta. 😄.
 
-> Hallo, [@akuikiali](https://github.com/akuikialie){:target="_blank"}<br>
+> Hallo, [@akuikialie](https://github.com/akuikialie){:target="_blank"}<br>
 > *Nama aslinya adalah "Achmad Ali Liesmana", Seorang backend developer di salah satu perusahaan Muslim di surabaya.*
 
 Enaknya pake git bisa membuat versioning di dalam project kerja kita. dan git tidak juga digunakan untuk versioning source code.
