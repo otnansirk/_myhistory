@@ -36,15 +36,14 @@ Oke, lanjut kepraktek.
     $ sudo apt install git
     ```
 
-**Setup git**
-
+**Setup git** <br>
     Setelah selesai installnya kita perlu mengatur username dan email yang nantiya akan menjadi identitas
     kita saat melakukan aktivitas pada git.
 
-    ```
-    $ git config --global user.name "krisnanto"
-    $ git config --global user.email "krisnantobiyuh@gmail.com"
-    ```
+```
+$ git config --global user.name "krisnanto"
+$ git config --global user.email "krisnantobiyuh@gmail.com"
+```
 
 **Menggunakan git**
 
@@ -52,7 +51,7 @@ Oke, lanjut kepraktek.
   *git-init* <br>
   Seblumnya kita masuk dulu ke folder yang akan kita gunakan untuk menyimpan file-file source code kita.
 ```
-  krisnantobiyuh@kris:~/Document/git-pinter$
+krisnantobiyuh@kris:~/Document/git-pinter$
 ```
 
   Lalu kita inisialisasi folder `git-pinter`
@@ -94,34 +93,34 @@ Oke, lanjut kepraktek.
 
 * *Menyimpan perubahan ke repository* <br>
   *git-commit* <br>
-  Menyimpan perubahan yang sudah kita `add` ke dalam repository kita.
-  ```
-  krisnantobiyuh@kris:~/Document/git-pinter$ git commit -m "first commit" .
-  ```
+    Menyimpan perubahan yang sudah kita `add` ke dalam repository kita.
+    ```
+    krisnantobiyuh@kris:~/Document/git-pinter$ git commit -m "first commit" .
+    ```
 
 * *Membuat remote repository* <br>
   *git remote* <br>
-  Buat sebuah sepository di github dengan nama `git-pinter`. setelah itu kita add remote.
-  ```
-  git remote add origin https://github.com/username-github-kalian/git-pinter.git
-  ```
-  Menambahkan remote repository ke dalam projevt git kita.
+    Buat sebuah sepository di github dengan nama `git-pinter`. setelah itu kita add remote.
+    ```
+    git remote add origin https://github.com/username-github-kalian/git-pinter.git
+    ```
+    Menambahkan remote repository ke dalam projevt git kita.
 
 * *Megirim perubahan* <br>
   *git-push* <br>
-  Menyimpan/mengirimkan perubahan yang sudah kita `commit` ke remote repository kita.
-  ```
-  krisnantobiyuh@kris:~/Document/git-pinter$ git push origin master .
-  ```
-  Perubahan yang berada dilocal kita sudah terkirim dan tersimpan.
+    Menyimpan/mengirimkan perubahan yang sudah kita `commit` ke remote repository kita.
+    ```
+    krisnantobiyuh@kris:~/Document/git-pinter$ git push origin master .
+    ```
+    Perubahan yang berada dilocal kita sudah terkirim dan tersimpan.
 
-  Untuk melihat coba lakukan check status `git-status`.
-  ```
-  krisnantobiyuh@kris:~/Document/git-pinter$ git status
-  ```
-  Muncul `nothing to commit, working tree clean`. menandakan tidak ada perubahan didalam working tree kita.
+    Untuk melihat coba lakukan check status `git-status`.
+    ```
+    krisnantobiyuh@kris:~/Document/git-pinter$ git status
+    ```
+    Muncul `nothing to commit, working tree clean`. menandakan tidak ada perubahan didalam working tree kita.
 
- Jangan ragu koreksi tulsan ini jika ada yang salah. #maridiskusi. 😉
+  Jangan ragu koreksi tulsan ini jika ada yang salah. #maridiskusi. 😉
 
 
 
