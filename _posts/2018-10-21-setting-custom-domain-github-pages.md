@@ -1,6 +1,6 @@
 ---
 layout : post
-data   : 2018-10-21,
+date   : 2018-10-25
 tags : ["other"]
 categories : other
 cat-image : cat-other.jpg

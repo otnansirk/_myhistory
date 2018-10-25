@@ -1,6 +1,6 @@
 ---
 layout : post
-data   : 2018-10-20
+date   : 2018-10-20
 tags : ["php"]
 categories : php
 cat-image : "cat-php.jpg"
