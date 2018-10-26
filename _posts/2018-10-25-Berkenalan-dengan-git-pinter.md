@@ -120,7 +120,9 @@ krisnantobiyuh@kris:~/Document/git-pinter$
     ```
     Muncul `nothing to commit, working tree clean`. menandakan tidak ada perubahan didalam working tree kita.
 
-  Jangan ragu koreksi tulsan ini jika ada yang salah. #maridiskusi. 😉
+    git-pinter sudah ada di Repository saya silahkan check di [sini](https://github.com/krisnantobiyuh/git-pinter)
+
+   Jika ada yang salah, jangan ragu untuk mengoreksi. #maridiskusi. 😉
 
 
 
