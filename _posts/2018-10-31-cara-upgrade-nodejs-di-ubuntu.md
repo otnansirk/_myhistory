@@ -1,6 +1,6 @@
 ---
 layout : post
-title  : Cara update nodejs di ubuntu
+title  : Cara upgrade nodejs di ubuntu
 date   : 2018-10-31,
 tags : ["nodejs"]
 categories : nodejs
