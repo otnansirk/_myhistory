@@ -1,4 +1,13 @@
-Cara menghilangkannya sebenernya cukup simple. kita hanya perlu tahu dimana kode www.000webhost.com itu berada. 
+---
+layout : post
+title  : Menghilangkan watermark 000webhost.com
+date   : 2019-01-25,
+tags : ["trick","javascript"]
+categories : trick
+---
+
+
+Cara menghilangkannya sebenernya cukup simple. kita hanya perlu tahu dimana kode 000webhost.com itu berada. 
 coba saja buka web kalian yang memiliki watermark 000webhost `lalu ctrl + u` (Di chrome windows). Cari tagnya 000webhost kalau sudah
 Edit file index dan letakkan kode di bawah ini. di paling bawah bagian atas tag `</body>`.
 
