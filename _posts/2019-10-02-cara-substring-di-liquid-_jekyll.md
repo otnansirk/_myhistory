@@ -5,14 +5,14 @@ tags : ["trick", "jekyll"]
 categories : jekyll
 ---
 
-cara mengatasi substr di jekyll kita bisa menggunakan `split`.
-Misal kita mau mengambil string `pemograman` dari kalimat `belajar-pemograman`.
+cara mengatasi substr di jekyll kita bisa menggunakan `split`.<br>
+Misal kita mau mengambil string `pemograman` dari kalimat `belajar-pemograman`.<br>
 
-kita dapat melakukannya dengan sperti ini.
+kita dapat melakukannya dengan sperti ini.<br>
 
 {% highlight ruby %}
-  {% assign str = "belajar pemograman" %}
-  {% assign splitStr = str | split: '-' %}
+  `{% assign str = "belajar pemograman" %}`
+  `{% assign splitStr = str | split: '-' %}`
 {% endhighlight %}
 
 dari script di atas kita bisa mendapatkan kata.
@@ -20,8 +20,8 @@ dari script di atas kita bisa mendapatkan kata.
 `pemograman` yang tersimpan di index ke `1`.
 
 {% highlight ruby %}
-  {{ splitStr[0] }} //belajar
-  {{ splitStr[1] }} //pemograman
+  `{{ splitStr[0] }} //belajar`
+  `{{ splitStr[1] }} //pemograman`
 {% endhighlight %}
 
 #maridiskusi
