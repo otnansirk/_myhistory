@@ -4,7 +4,7 @@ layout: home
 
 {% include header.html %}
 <div class="c-posts o-opacity" data-page="{{ currentPage }}" data-totalPages="{{ paginator.total_pages }}">
-  {% for post in site.posts %}
+  {% for post in paginator.posts %}
   <article class="c-post">
     {% if post.image %}
     <a class="c-post-thumbnail o-opacity" style="background-image: url({{"/images/" | prepend: site.baseurl | append : post.image}})"
@@ -24,6 +24,7 @@ layout: home
     </div>
   </article> <!-- /.c-post -->
   {% endfor %}
+{% include pagination.html %}
 </div> <!-- /.c-posts -->
 
 {% include categories.html %}

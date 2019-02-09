@@ -8,22 +8,24 @@
       </div>
       <ul id="js-results-container" class="c-search-results-list"></ul>
     </div>
-    {% if page.url == "/" %}
+
+    {% assign a = page.url | split: '/' %}
+    {% if a[1] == "page" or page.url == "/" %}
       <div class="c-nav">
         <ul class="c-nav__list u-lists-reset">
           <li class="c-nav__item is-active">
             <div data-icon='ei-pencil' data-size='s'></div> Posts
           </li>
           <li class="c-nav__item">
-            <div data-icon='ei-star' data-size='s'></div> Categories
+            <div data-icon='ei-star' data-size='s'></div> Check
           </li>
         </ul>
       </div>
-      {%else%}
+      {% else %}
       <div class="c-nav">
         <ul class="c-nav__list u-lists-reset">
           <li class="c-nav__item">
-             <a style="color :black" href="{{site.url}}">Back to post</a>
+             <a style="color :black" href="javascript:history.back()">Back to post</a>
           </li>
           <li class="c-nav__item is-active" style="cursor : context-menu">
             <div data-icon='ei-undo' data-size='s'></div>

@@ -1,17 +1,23 @@
 ---
 layout: default
 ---
-<aside class="c-sidebar">
+<aside class="c-sidebar o-opacity">
   <div class="c-sidebar-author">
     <div class="c-author__cover">
       <a href="{{site.baseurl}}/">
         <img src="{{site.baseurl}}/images/{% if site.author-image %}{{site.author-image}}{% endif %}" alt="{{site.author-name}}">
       </a>
     </div>
+    <br>
     <div class="c-author__info">
       <div class="c-author__name">{{site.author-name}}{{site.baseurl}}</div>
       <span class="c-author__job">{{site.author-job}}</span>
     </div>
+    <br>
+    <p class="c-author__about">{{site.about-author | strip_html | truncatewords: 50}}</p>
+
+    <br><br>
+
     <div class="c-contact-menu">
       {% if site.author-linkedin %}
       <a target="_blank" href="https://in.linkedin.com/in/{{site.social-linkedin}}" class="custom-color-linkend c-contact-btn c-btn c-btn--secondary c-btn--round c-btn--shadow"><span data-icon='ei-sc-linkedin' data-size='s'></span> Follow me</a>
@@ -36,7 +42,6 @@ layout: default
       {% else %}
       {% endif %}
     </div>
-    <p class="c-author__about">{{site.about-author | strip_html | truncatewords: 50}}</p>
   </div>
 
   <div class="c-sidebar-footer">
@@ -74,7 +79,7 @@ layout: default
       </ul>
     </div>
     <div class="c-copyright">
-      <p>{{site.time | date: '%Y'}} &copy; {{site.author-name}}</p>
+      <p>{{site.time | date: '%Y'}} &copy; {{site.author-city}}</p>
     </div>
   </div>
 </aside> <!-- /.c-sidebar -->

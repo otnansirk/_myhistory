@@ -4,6 +4,7 @@ title  : Failed to build gem native extension
 date   : 2019-02-09,
 tags : ["jekyll","error"]
 categories : jekyll
+cat-image : "cat-jekyll.jpg"
 ---
 
 

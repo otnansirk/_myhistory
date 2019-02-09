@@ -4,8 +4,7 @@ title  : Berkenalan dengan git-pinter
 date   :  2018-10-25,
 tags : ["git"]
 categories : git
-image :
-cat-image :
+cat-image : cat-git.jpg
 ---
 
 Beberapa hari yang lalu saya coba buka-buka repository github dari serior saya

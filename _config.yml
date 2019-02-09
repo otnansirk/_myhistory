@@ -1,7 +1,7 @@
 title: reogcode
 description: Kagak usah dibaca gak penting.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://krisnantobiyuh.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://krisnanto.me/_myhistory" # the base hostname & protocol for your site, e.g. http://example.com
 favicon : "favicon.ico"
 # Author
 author-name:    Krisnanto
@@ -10,10 +10,11 @@ author-job:     Software engineer
 author-linkedin: krisnanto010 # Add your linkedin for contant form.
 author-github  : krisnantobiyuh # Add your github account
 author-email   : krisnantobiyuh@gmail.com # Add your github account
-about-author   : "
-                  Hallo, Selamat datang.
-                  Mau diskusi ??? Ayook. :)
-                 "
+author-city    : Ponorogo
+about-author   : Pelajari kesalahan orang lain selagi mampu kau pelajari.
+                 kau tidak cukup waktu mempelajarinya dari pengalamanmu sendiri.
+                 - (Albert Sheinwold)
+                 
 
 # Social settings
 social-twitter  : krisnantobiyuh
@@ -37,10 +38,14 @@ disqus-identifier: reogcode # Add your shortname for Disqus Comment. For example
 # Build settings
 markdown: kramdown
 permalink: /:title/
-plugins:
+
+# Gems
+plugins_dir: ./_scripts
+
+gems:
   - jekyll-paginate
 
-paginate: 7
+paginate: 5
 paginate_path: "/page/:num/"
 
 # compress

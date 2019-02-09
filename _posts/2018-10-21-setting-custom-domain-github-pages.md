@@ -1,7 +1,7 @@
 ---
 layout : post
 date   : 2018-10-25
-tags : ["other"]
+tags : ["other", "git"]
 categories : other
 cat-image : cat-other.jpg
 ---
