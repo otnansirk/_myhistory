@@ -11,7 +11,7 @@ Misal kita mau mengambil string `pemograman` dari kalimat `belajar-pemograman`.<
 kita dapat melakukannya dengan sperti ini.<br>
 
 ```
- `{%` assign str = "belajar pemograman" `%}`
+ `{``%` assign str = "belajar pemograman" `%``}`
   assign splitStr = str | split: '-'
 ```
 dari script di atas kita bisa mendapatkan kata.
