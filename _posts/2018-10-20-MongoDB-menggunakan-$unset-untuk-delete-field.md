@@ -1,5 +1,5 @@
 ---
-layout : post
+layout : default
 date   :  2018-10-20
 tags : ["mongodb"]
 categories : mongodb
