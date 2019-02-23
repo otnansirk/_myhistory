@@ -1,5 +1,6 @@
 title: reogcode
 description: Kagak usah dibaca gak penting.
+logo : reogcode.png
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://krisnanto.me/_myhistory" # the base hostname & protocol for your site, e.g. http://example.com
 favicon : "favicon.ico"
