@@ -9,8 +9,8 @@
       <ul id="js-results-container" class="c-search-results-list"></ul>
     </div>
 
-    {% assign a = page.url | split: '/' %}
-    {% if a[1] == "page" or page.url == "/" %}
+    {% assign url = page.url | split: '/' %}
+    {% if url[1] == "page" or page.url == "/" or url[1] == "category"%}
       <div class="c-nav">
         <ul class="c-nav__list u-lists-reset">
           <li class="c-nav__item is-active">
@@ -25,7 +25,7 @@
       <div class="c-nav">
         <ul class="c-nav__list u-lists-reset">
           <li class="c-nav__item">
-             <a style="color :black" href="javascript:history.back()">Back to post</a>
+             <a style="color :black" href="javascript:history.back()">Back</a>
           </li>
           <li class="c-nav__item is-active" style="cursor : context-menu">
             <div data-icon='ei-undo' data-size='s'></div>

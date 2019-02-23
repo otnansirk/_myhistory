@@ -45,7 +45,7 @@ plugins_dir: ./_scripts
 gems:
   - jekyll-paginate
 
-paginate: 5
+paginate: 8
 paginate_path: "/page/:num/"
 
 # compress

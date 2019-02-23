@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<aside class="c-sidebar o-opacity">
+<!-- <aside class="c-sidebar o-opacity">
   <div class="c-sidebar-author">
     <div class="c-author__cover">
       <a href="{{site.baseurl}}/">
@@ -82,8 +82,18 @@ layout: default
       <p>{{site.time | date: '%Y'}} &copy; {{site.author-city}}</p>
     </div>
   </div>
-</aside> <!-- /.c-sidebar -->
+</aside>  -->
+<!-- /.c-sidebar -->
 
+{% assign url = page.url | split: '/' %}
+{% if url[1] == "page" or page.url == "/" or url[1] == "category"%}
+<div style="text-align: center;">
+  {{ page.title }}
+  <a href="{{site.baseurl}}/">
+    <img class="reogcode-logo" src="/images/reogcode-logo.png"> 
+  </a>
+</div>
+{% endif%}
 <main class="c-content">
   {{ content }}
 </main> <!-- /.c-content -->

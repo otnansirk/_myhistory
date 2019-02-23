@@ -3,8 +3,9 @@ layout: home
 ---
 {% include header.html %}
 <article class="c-article">
-    {% if page.image %}
-    <div class="c-article__image o-opacity" style="background-image: url( {{"/images/" | prepend: site.baseurl | append : page.image}} )"></div>
+    {% if page.image %}{{ page.title }}
+    <div class="c-article__image o-opacity" style="background-image: url( {{"/images/" | prepend: site.baseurl | append : page.image}} )">
+    </div>
     {% else %}
     {% endif %}
     <div class="c-wrap-content">
