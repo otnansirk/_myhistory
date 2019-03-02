@@ -1,10 +1,12 @@
 ---
-layout : post
-date   : 2018-10-20
-tags : ["php"]
-categories : php
-cat-image : "cat-php.jpg"
-image : "cat-php.jpg"
+title: Php Mengatasi Curl_init() Error Ubuntu
+layout: post
+date: '2018-10-20'
+tags:
+- php
+categories: php
+cat-image: cat-php.jpg
+image: cat-php.jpg
 ---
 
 Jika mengalami error curl_init() jangan kawatir coba check di `php.ini` apakah

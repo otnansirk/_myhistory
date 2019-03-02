@@ -46,6 +46,8 @@ plugins_dir: ./_scripts
 gems:
   - jekyll-paginate
 
+gem: [jekyll-admin]
+    
 paginate: 8
 paginate_path: "/page/:num/"
 
@@ -68,8 +70,10 @@ sass:
   sass_dir: _sass
   style: compressed
 
+
 # Exclude from processing.
 exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
+
