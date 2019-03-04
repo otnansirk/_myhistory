@@ -1,18 +1,13 @@
 ---
-title: Plugins VS Code  yang sangat membantu Developer PHP
+title: Extension VS Code untuk membantu developer PHP
 layout: post
 date: '2019-03-02 15:30:00'
-category:
-- TextEditor
-tags:
-- Text Editor
-- VC Code
-- php
-cat-image: cat-texteditor.png
+category: TextEditor
+tags: [Text Editor, VC Code, php]
 ---
 
 Hi teman. <br>
-Disini aku mau share apa aja plugins yang aku gunakan saat ngoding php dengan  text editor `VS Code`.
+Disini aku mau share apa aja extension yang aku gunakan saat ngoding php dengan  text editor `VS Code`.
 
 Ini beberapa list plugins yang aku gunakan : 
 
@@ -37,6 +32,8 @@ Ini salah satu andalan seorang code writer yaitu menuliskan block code / documen
 
 ### [Snippet creator](https://marketplace.visualstudio.com/items?itemName=nikitaKunevich.snippet-creator)<br>
 Dengan ini kita bisa membuat snippet sendiri dengan sangat mudah. dan dengan ini pula kita serasa punya asistent pribadi. :D. (Kalau kamu ngak coba gak bakalan tahu dah pokoknya).
+
+Lanjut diskusi  tentang [Settingan VS Code untuk membantu developer PHP](http://krisnantobi.github.io/_myhistory/settingan-vs-code-untuk-membantu-developer-php/)
 
 
 `#mari diskusi`
