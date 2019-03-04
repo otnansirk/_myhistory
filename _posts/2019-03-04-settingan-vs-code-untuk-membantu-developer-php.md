@@ -7,7 +7,7 @@ tags: [Text Editor, VC Code, php]
 cat-image: cat-texteditor.png
 ---
 
-Lanjutan dari history sebelumnya tentang [Settingan VS Code untuk membantu developer PHP](http://extension-vs-code-untuk-membantu-developer-php/)
+Lanjutan dari history sebelumnya tentang [Settingan VS Code untuk membantu developer PHP](http://krisnantobi.github.io/_myhistory/extension-vs-code-untuk-membantu-developer-php/)
 
 Disini aku akan share beberapa settingan yang aku gunakan menggunakan vs code editor.<br>
 Bisa langsung `Copy +  Paste` kan di settingan VS Code mu.
