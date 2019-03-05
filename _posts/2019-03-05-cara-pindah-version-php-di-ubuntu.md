@@ -1,9 +1,12 @@
 ---
 title: Cara pindah version php di ubuntu
 layout: post
-date: '2019-03-05 15:30:00'
-category: trick
-tags: [ubuntu, bash]
+date: '2019-03-05 00:00:00'
+category: ubuntu
+cat-image: cat-ubuntu.jpg
+tags:
+- ubuntu
+- bash
 ---
 
 Jika kita udah menginstall php dengan lebih dari satu version misal contoh kita punya `php7.2` dan `php5.6` . kita bisa pindah-pindah versi php sesuai dengan yang kita inginkan. <br> 
