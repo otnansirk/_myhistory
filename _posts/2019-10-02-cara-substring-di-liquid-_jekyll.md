@@ -23,5 +23,7 @@ dari script di atas kita bisa mendapatkan kata.
 { { splitStr[1] } }//pemograman
 ```
 
-jangan lupa hilangkan space di antara syntacnya `{ {`, `{ %` :D
+jangan lupa hilangkan space di antara syntaxnya `{ {`, `{ %` :D <br>
+btw kenapa aku kasih space karena aku belum tahu cara buat pre code di markdown khususnya syntax dari liquid templating ini. Jdi buat temen-temen yang tahu caranya bisa kasih tahu ya. :) <br>
+
 #maridiskusi
