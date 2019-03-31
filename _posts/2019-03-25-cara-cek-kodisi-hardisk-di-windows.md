@@ -2,10 +2,9 @@
 title: cara cek kodisi hardisk di windows
 layout: post
 date: '2019-03-25'
-tags:
-- trick
-- windows
+tags: ["trick","windows"]
 categories: trick
+cat-image: cat-trick.jpg
 
 ---
 

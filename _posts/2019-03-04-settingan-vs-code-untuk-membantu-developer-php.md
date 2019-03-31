@@ -2,8 +2,8 @@
 title: Settingan VS Code untuk membantu developer PHP
 layout: post
 date: '2019-03-04 15:30:00'
-category: TextEditor
-tags: [Text Editor, VC Code, php]
+category: texteditor
+tags: ["TextEditor", "VCCode", "php"]
 cat-image: cat-texteditor.png
 ---
 
@@ -30,7 +30,7 @@ Bisa langsung `Copy +  Paste` kan di settingan VS Code mu.
     "editor.wordWrapColumn": 80,
     "editor.wordWrap": "off",
     "editor.rulers": [80,120, 180],
-    
+
     "[git-commit]":  {
         "editor.rulers": [80,120]
     },
@@ -44,6 +44,6 @@ Bisa langsung `Copy +  Paste` kan di settingan VS Code mu.
 }
 ```
 
-kalau ada yang di tanyakan dari settingan di atas comment aja ya biar ada diskusi :). 
+kalau ada yang di tanyakan dari settingan di atas comment aja ya biar ada diskusi :).
 
 #maridiskusi

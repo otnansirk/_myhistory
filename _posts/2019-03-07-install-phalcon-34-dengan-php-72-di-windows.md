@@ -2,9 +2,7 @@
 title: Install phalcon 3.4 dengan PHP 7.2 di windows
 layout: post
 date: '2018-10-20'
-tags:
-- phalcon
-- php
+tags:  ["phalcon", "php"]
 categories: php
 ---
 
@@ -17,7 +15,7 @@ yang pertama kita check dulu di `phpinfo()` dan cari bagian ini :
 yang perlu diperhatikan adalan  `compiler = MSVC15 (Visual C++ 2017)` ,  `Architecture = 	x64` dan `PHP Extension Build = API20170718,TS,VC15`.
 
 di `PHP Extension Build` fokus ke `TS` dan juga `VC15`.
-`TS` singkatan dari Thread Safe (TS). 
+`TS` singkatan dari Thread Safe (TS).
 `VC15` ini vcompilernya.
 
 Berati kita cari `phalcon dll` yang di compile dari `VC15`  untuk windows `64bit` dengan `PHP build nya` Thread Safe (TS).
