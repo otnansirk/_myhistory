@@ -58,8 +58,6 @@ $go run hello.go
 ```
 <br>
 jika settingan yang kita buat success maka seharusnya kita bisa lihat string `Hello word` setelah kita run perintah di atas.
-<br>
-sumber : [https://golang.org/doc/install](https://golang.org/doc/install)
 
 
 Jangan lupa #maridiskusi 😁
