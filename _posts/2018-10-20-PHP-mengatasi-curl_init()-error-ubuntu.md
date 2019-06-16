@@ -6,7 +6,6 @@ tags:
 - php
 categories: php
 cat-image: cat-php.jpg
-image: cat-php.jpg
 ---
 
 Jika mengalami error curl_init() jangan kawatir coba check di `php.ini` apakah
