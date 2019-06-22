@@ -35,7 +35,8 @@ sebagai berikut :
 {% endhighlight %}
 
 Setelah itu buat query update sebagai berikut :
-{% highlight mongodb %}
+
+{% highlight json %}
 db.collection.update(
    {"personalDetail.address._id" : "_id" : ObjectId("5bc834a4d068620b030c5642")},
    {$set : {"personalDetail.address.$" : {
